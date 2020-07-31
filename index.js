@@ -25,11 +25,11 @@ document.addEventListener("keydown",function(e){
     let left=parseInt(leftNumbers,10);
     dodger.style.left= `${left - 1}px`;
   }
-  else if (e.key ==ArrowRight) 
+  else if (e.key ==ArrowRight)
   {
     let rightNumbers=dodger.style.right.replace("px","");
     let right =parseInt(rightNumbers,10);
     dodger.style.left= `${right + 1}px`;
-    
+
   }
 })
