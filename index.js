@@ -21,7 +21,7 @@ document.addEventListener("keydown", function(e) {
 
 document.addEventListener("keydown",function(e){
   if(e.key === "ArrowLeft"){
-  
+
 
   }
   else if (e.key ==="ArrowRight")
